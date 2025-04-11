@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className="relative">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col justify-center items-center relative">
+      <section className="min-h-screen flex flex-col justify-center items-center relative" id="home">
         <motion.div
            variants={heroVariants}
            initial="hidden"
@@ -71,7 +71,14 @@ export default function Home() {
             whileTap={{ scale: 0.95 }}
             className="bg-blue-500 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-blue-600 transition-colors"
           >
-            <Link to="/work">View My Work</Link>
+            <button
+              onClick={() =>
+              {
+                const section = document.getElementById("work")
+                if(section) section.scrollIntoView({behavior: "smooth"})
+              }
+              }
+            >View My Work</button>
           </motion.button>
 
           <motion.div 

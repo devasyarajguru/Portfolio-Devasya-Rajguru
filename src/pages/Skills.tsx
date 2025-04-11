@@ -173,22 +173,6 @@ export default function Skills() {
           </motion.div>
         ))}
 
-        <motion.div
-          variants={itemVariants}
-          className="text-center mt-16"
-        >
-          <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-            Always learning and expanding my skill set. Check out my projects to see these skills in action!
-          </p>
-          <motion.a
-            href="/work"
-            className="inline-flex items-center gap-2 bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            View My Projects
-          </motion.a>
-        </motion.div>
       </motion.div>
     </div>
   );

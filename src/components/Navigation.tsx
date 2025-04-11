@@ -36,9 +36,16 @@ export default function Navigation() {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="text-2xl font-bold">
+          <button  className="text-2xl font-bold"
+          onClick={() =>
+            {
+              const section = document.getElementById("home")
+              if(section) section.scrollIntoView({behavior: "smooth"})
+            }
+            }
+          >
             Portfolio
-          </Link>
+          </button>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
