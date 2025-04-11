@@ -8,7 +8,6 @@ import Testimonials from './Testimonials';
 import Contact from './Contact';
 // import TwitterLoudOut from '../components/TwitterLoudOut';
 import FeaturedIn from '../components/FeaturedIn';
-import { Link } from 'react-router-dom';
 
 const heroVariants = {
   hidden: { opacity: 0, y: 30 },
