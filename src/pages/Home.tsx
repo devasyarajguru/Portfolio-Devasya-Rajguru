@@ -119,11 +119,12 @@ export default function Home() {
 
       {/* Other Sections */}
       <section id='about'><About /></section>
-      <section id='work'><Work /></section>   
-      <section id='skills'><Skills /></section>   
       <section id='feature'><FeaturedIn /></section>     
       {/* <section id='twitter'><TwitterLoudOut /></section>       */}
-      <section id='testimonals'> <Testimonials /></section>    
+      <section id='testimonals'> <Testimonials /></section>
+      <section id='work'><Work /></section>   
+      <section id='skills'><Skills /></section>   
+          
       <section id='contact'> <Contact /></section>    
     </div>
   );
