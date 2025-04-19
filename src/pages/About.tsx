@@ -65,7 +65,7 @@ export default function About() {
       <motion.div
         initial="hidden"
         whileInView="visible" // Animates when in view
-        viewport={{once:true , amount: 0.3}} // triggers when 30% of the sewction is in view
+        // viewport={{once:true , amount: 0}} // triggers when 30% of the sewction is in view
         variants={containerVariants}
         className="max-w-4xl mx-auto"
       >
